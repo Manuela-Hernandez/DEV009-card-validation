@@ -1,0 +1,158 @@
+
+.header {
+    display: flex;
+    margin: 10px;
+    border: 2px solid green;
+    justify-content: space-between;
+}
+
+.logo {
+    border: 1px solid blueviolet; 
+    flex-grow: 2;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.menu {
+    display: flex;
+    margin: 10px;
+    border: 3px solid fuchsia;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.menu p{
+    margin: 10px;
+}
+
+h1, h3{
+    text-align: center;
+}
+
+.productos{
+    display: flex;
+    height: 500px;
+    margin: 10px;
+    border: 2px solid yellow;
+    justify-content: space-between;
+}
+
+.productos img{
+    width: 400px;
+}
+
+.producto {
+    display: flex;
+    border: 2px solid blue;
+    flex-direction: column;
+    align-items: center;
+}
+
+.producto button{
+    background-color: #F8D9F3;
+    border-radius: 20px;
+    border-color: #F8D9F3;
+}
+
+.footer {
+    display: flex;
+    border: 2px solid orange;
+    margin: 10px;
+    justify-content:space-between;
+}
+
+.footer img{
+    width: 200px;
+}
+
+.pie_pagina{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid forestgreen;
+    align-items: center;
+}
+
+#pagina_principal {
+    display: none;
+}
+
+.pagina_comedero, 
+.pagina_kit,
+.pagina_tunel {
+    display: flex;
+    border: 3px solid orchid;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.pagina_comedero img, 
+.pagina_kit img,
+.pagina_tunel img {
+    width: 500px;        
+} 
+
+.imagen_comedero, 
+.imagen_kit,
+.imagen_tunel {
+    border: 4px solid yellow;
+    flex: 1;   
+}
+
+.descripcion_comedero, 
+.descripcion_kit,
+.descripcion_tunel {
+    border: 4px solid red;
+    display: flex;
+    text-align: center;
+    flex: 1;  
+}
+
+.descripcion_comedero p, 
+.descripcion_kit p, 
+.descripcion_tunel p {
+    border: 5px solid green;
+    margin: 0% 10% 10% 10%;
+    font-size: 20px;  
+}
+
+.pagina_comedero button, 
+.pagina_kit button, 
+.pagina_tunel button {
+    background-color: #F8D9F3;
+    border-radius: 20px;
+    border-color: #F8D9F3;
+    margin-top: 20%;
+}
+
+.pagina_comedero, 
+.pagina_kit, 
+.pagina_tunel {
+    display: none;
+}
+
+.pagina_info_pago {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid forestgreen;
+    flex-direction: row; 
+    margin: 10px;
+}
+
+.pagina_info_pago img{
+    width: 100px;
+}
+
+.tarjeta_credito {
+    border: 3px solid fuchsia; 
+    
+}
+
+.imagen_logo_tarjetas {
+    margin: 10px;
+    border: 3px solid yellow;
+    flex-direction: row; 
+}
