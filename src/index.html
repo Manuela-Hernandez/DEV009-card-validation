@@ -87,28 +87,46 @@
           </div>
         </div>
       </section>
-      <section class="pagina_info_pago">
-        <div class="tarjeta_credito">
-          <h3>INFORMACIÓN DE PAGO</h3>
-          <p>Tarjetas de crédito</p>
+      <section id="pagina_formulario_pago">
+        <div class="informacion_pago">
+          <div class="titulo_tarjeta">
+            <h3>INFORMACIÓN DE PAGO</h3>
+            <p>Tarjetas de crédito</p>
+          </div>
+          <div class="imagen_logo_tarjetas">
+            <img src="Imagenes/tarjetas-de-credito.jpeg">
+          </div>
         </div>
-        <div class="imagen_logo_tarjetas">
-          <img src="Imagenes/tarjetas-de-credito.jpeg">
-        </div>
+        <form class="form_pago">
+          <div class="form_datos">
+            <label class="form_label" for="nombre_titular">NOMBRE DEL TITULAR</label>
+            <input class="form_input" type="text" id="nombre_titular" name="nombre_titular">
+            <label class="form_label" for="mes_tarjeta">FECHA DE EXPIRACIÓN</label>
+            <input class="form_input" type="text" id="numero_tarjeta" name="mes_tarjeta" placeholder="Mes">
+            <input class="form_input" type="text" id="año_tarjeta" name="año_tarjeta" placeholder="Año">
+          </div>
+          <div class="form_datos">
+            <label class="form_label" for="numero_tarjeta">NUMERO DE LA TARJETA</label>
+            <input class="form_input" type="text" id="numero_tarjeta" name="numero_tarjeta">
+            <label class="form_label" for="codigo_seguridad">CODIGO DE SEGURIDAD</label>
+            <input class="form_input" type="text" id="codigo_seguridad" name="codigo_seguridad" placeholder="3 digitos">
+            <input class= "form_submit" type="submit" value="CONFIRMAR">
+          </div>
+        </form>
       </section>
     </main>
     <footer>
       <div class="footer">
         <div class="pie_pagina">
-          <img src="Imagenes/candado.jpeg">
+          <img src="Imagenes/candado2.png">
           <p>PAGOS 100% SEGUROS</p>
         </div>
         <div class="pie_pagina">
-          <img src="Imagenes/camion.jpeg">
+          <img src="Imagenes/camion2.png">
           <p>ENVIOS A TODA COLOMBIA</p>
         </div>
         <div class="pie_pagina">
-          <img src="Imagenes/bandera.jpeg">
+          <img src="Imagenes/colombia.png">
           <p>TALENTO COLOMBIANO</p>
         </div>
       </div>
