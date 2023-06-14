@@ -3,6 +3,7 @@
     display: flex;
     margin: 10px;
     justify-content: space-between;
+    box-shadow: 0px 5px 5px 0px #F8D9F3;
 }
 
 .logo {
@@ -38,7 +39,7 @@ h1, h3{
 }
 
 .productos img{
-    width: 400px;
+    width: 350px;
 }
 
 .producto {
@@ -47,13 +48,13 @@ h1, h3{
     align-items: center;
 }
 
-.producto button{
+button {
     background-color: #F8D9F3;
     border-radius: 20px;
     border-color: #F8D9F3;
 }
 
-/* #pagina_principal {
+/* #seccion_pagina_principal {
     display: none;
 } */
 
@@ -61,65 +62,14 @@ h1, h3{
     display: flex;
     margin: 10px;
     justify-content:space-between;
+    border-top: 2px solid #F8D9F3;
 }
-
-
 
 .pie_pagina{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-
-.pagina_comedero, 
-.pagina_kit,
-.pagina_tunel {
-    display: flex;
-    margin: 10px;
-    justify-content: space-between;
-}
-
-.pagina_comedero img, 
-.pagina_kit img,
-.pagina_tunel img {
-    width: 500px;        
-} 
-
-.imagen_comedero, 
-.imagen_kit,
-.imagen_tunel {
-    flex: 1;   
-}
-
-.descripcion_comedero, 
-.descripcion_kit,
-.descripcion_tunel {
-    display: flex;
-    text-align: center;
-    flex: 1;  
-}
-
-.descripcion_comedero p, 
-.descripcion_kit p, 
-.descripcion_tunel p {
-    margin: 0% 10% 10% 10%;
-    font-size: 20px;  
-}
-
-.pagina_comedero button, 
-.pagina_kit button, 
-.pagina_tunel button {
-    background-color: #F8D9F3;
-    border-radius: 20px;
-    border-color: #F8D9F3;
-    margin-top: 20%;
-}
-
-.pagina_comedero, 
-.pagina_kit, 
-.pagina_tunel {
-    display: none;
+    padding: 15px;
 }
 
 .informacion_pago {
@@ -127,6 +77,8 @@ h1, h3{
     flex-direction: column;
     flex-direction: row; 
     margin: 10px;
+    padding: 15px;
+    justify-content: center;
 }
 
 .informacion_pago img{
@@ -135,7 +87,6 @@ h1, h3{
 
 .imagen_logo_tarjetas {
     margin: 10px;
-    border: 3px solid yellow;
     flex-direction: row; 
 }
 
@@ -143,18 +94,22 @@ h1, h3{
     display: flex;  
     margin: 10px;
     justify-content: center;
+    
 }
 
 .form_datos {
     display: flex;
     flex-direction: column;
-    margin: 10px;   
+    padding: 0px 20px 200px 20px;
 }
 
 .form_label  {
     margin: 15px 0px 0px 0px;
 }
+.form_input {
+    margin: 0px 0px 10px 0px;
+}
 
-#pagina_formulario_pago {
+#seccion_formulario_pago {
     display: none;
 }
