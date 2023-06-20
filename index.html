@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class ="header">
+        <div class="logo">
+          <img src="Imagenes/Logo.jpeg">
+        </div>
+        <div class="menu">
+          <p>INICIO</p> 
+          <p>OFERTAS</p> 
+          <p>CONTACTO</p> 
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="seccion_pagina_principal">
+        <h1>ACESORIOS</h1>
+        <h3>PRODUCTOS DESTACADOS</h3>
+        <div class="productos">
+          <div class="producto">
+              <img src="Imagenes/comedero-2-platos-ceramica.jpeg">
+              <p>$70.000</p>
+              <button class="boton_comprar" id="comprar_comedero">COMPRAR</button>
+          </div>
+          <div class="producto">
+              <img src="Imagenes/kit-iniciacion.jpeg">
+              <p>$600.000</p>
+              <button class="boton_comprar" id="comprar_kit">COMPRAR</button>
+          </div>
+          <div class="producto">
+              <img src="Imagenes/tunel-arcoiris.webp">
+              <p>$60.000</p>
+              <button class="boton_comprar" id="comprar_tunel">COMPRAR</button>
+          </div>
+        </div>
+      </section>
+      <section id="seccion_formulario_pago">
+        <div class="informacion_pago">
+          <div class="titulo_tarjeta">
+            <h3>INFORMACIÓN DE PAGO</h3>
+            <p>Tarjetas de crédito</p>
+          </div>
+          <div class="imagen_logo_tarjetas">
+            <img src="Imagenes/tarjetas-de-credito.jpeg">
+          </div>
+        </div>
+        <form class="form_pago">
+          <div class="form_datos">
+            <label class="form_label" for="nombre_titular">NOMBRE DEL TITULAR</label>
+            <input class="form_input" type="text" id="nombre_titular" name="nombre_titular" maxlength="19" autocomplete="off">
+            <label class="form_label" for="mes_tarjeta">FECHA DE EXPIRACIÓN</label>
+            <input class="form_input" type="text" id="mes_tarjeta" name="mes_tarjeta" maxlength="2" placeholder="Mes">
+            <input class="form_input" type="text" id="año_tarjeta" name="año_tarjeta" maxlength="2" placeholder="Año">
+          </div>
+          <div class="form_datos">
+            <label class="form_label" for="numero_tarjeta">NÚMERO DE LA TARJETA</label>
+            <input class="form_input" type="text" id="numero_tarjeta" name="numero_tarjeta"  maxlength="19" autocomplete="off">
+            <label class="form_label" for="codigo_seguridad">CÓDIGO DE SEGURIDAD</label>
+            <input class="form_input" type="text" id="codigo_seguridad" name="codigo_seguridad" maxlength="3" placeholder="3 digitos">
+            <button class="boton_formulario" id="boton_formulario_pago" type="button" >CONFIRMAR</button>
+            <p id="resultadoTarjeta"></p>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="contenido_footer">
+          <img src="Imagenes/candado2.png">
+          <p>PAGOS 100% SEGUROS</p>
+        </div>
+        <div class="contenido_footer">
+          <img src="Imagenes/camion2.png">
+          <p>ENVIOS A TODA COLOMBIA</p>
+        </div>
+        <div class="contenido_footer">
+          <img src="Imagenes/colombia.png">
+          <p>TALENTO COLOMBIANO</p>
+        </div>
+      </div>
+    </footer>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>

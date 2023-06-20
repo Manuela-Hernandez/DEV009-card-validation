@@ -1,0 +1,113 @@
+
+.header {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    box-shadow: 0px 5px 5px 0px #F8D9F3;
+}
+
+.logo {
+    flex-grow: 2;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.menu {
+    display: flex;
+    margin: 10px;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.menu p{
+    margin: 10px;
+}
+
+h1, h3{
+    text-align: center;
+}
+
+.productos{
+    display: flex;
+    height: 500px;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.productos img{
+    width: 350px;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background-color: #F8D9F3;
+    border-radius: 20px;
+    border-color: #F8D9F3;
+}
+
+.footer {
+    display: flex;
+    margin: 10px;
+    justify-content:space-between;
+    border-top: 2px solid #F8D9F3;
+}
+
+.contenido_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.informacion_pago {
+    display: flex;
+    flex-direction: row; 
+    margin: 10px;
+    padding: 15px;
+    justify-content: center;
+}
+
+.informacion_pago img{
+    width: 100px;
+}
+
+.imagen_logo_tarjetas {
+    margin: 10px;
+    flex-direction: row; 
+}
+
+.form_pago  {
+    display: flex;  
+    margin: 10px;
+    justify-content: center;
+    
+}
+
+.form_datos {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 200px 20px;
+}
+.form_datos p {
+    text-align: center;
+}
+
+.form_label  {
+    margin: 15px 0px 0px 0px;
+}
+.form_input {
+    margin: 0px 0px 10px 0px;
+}
+
+#seccion_formulario_pago {
+    display: none;
+}
